@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch | DOM Manipulation Project</title>
+    <meta
+      name="description"
+      content="A browser-based sketchpad with DOM manipulation using JavaScript and Flexbox. Build and customize grids to simulate an Etch-A-Sketch. Designed by Farrukh Ali as part of the Foundations Course Of The Odin project."
+    />
+    <meta name="author" content="Farrukh Ali" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section aria-labelledby="etch-a-sketch-title">
+        <h1 id="etch-a-sketch-title">Interactive Etch-A-Sketch</h1>
+        <div class="grid-wrapper">
+          <div
+            class="container"
+            id="grid-container"
+            role="grid"
+            aria-label="Drawing grid"
+          ></div>
+        </div>
+        <button
+          id="reset-button"
+          aria-label="Reset grid and set new grid size"
+          title="Reset grid"
+        >
+          Reset Grid
+        </button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Centered grid container with fixed aspect ratio */
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  max-width: 80vh; /* Prevent overflow beyond viewport height */
+  max-height: 80vh;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(16, 1fr);
+  border: 2px solid #333; /* Border for better visibility */
+  box-sizing: border-box;
+}
+
+/* Square grid cells */
+.square {
+  background-color: white;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  aspect-ratio: 1 / 1; /* Keep squares in equal height/width */
+}
+
+/* Hover effect */
+.square:hover,
+.square:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #333;
+  color: white;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .grid-wrapper {
+    width: 90vw;
+    max-width: 90vh;
+  }
+}
