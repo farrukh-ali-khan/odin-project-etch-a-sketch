@@ -1,5 +1,7 @@
 # Etch-A-Sketch
 
+**Live URL:** [https://farrukh-ali-khan.github.io/odin-project-etch-a-sketch/](https://farrukh-ali-khan.github.io/odin-project-etch-a-sketch/)
+
 ## Project Overview
 
 The **Etch-A-Sketch** project is a browser-based application that simulates the classic Etch-A-Sketch toy. Built using HTML, CSS, and JavaScript, this project showcases DOM manipulation skills and provides a platform for creativity and exploration. This project is part of **The Odin Project** Foundations Course.
