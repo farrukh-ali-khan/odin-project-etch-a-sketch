@@ -69,6 +69,8 @@ button {
   background-color: white;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  min-width: 48px; /* Ensure minimum width for touch targets */
+  min-height: 48px; /* Ensure minimum height for touch targets */
 }
 
 button:hover,
