@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Etch-A-Sketch** project is a browser-based application that simulates the classic Etch-A-Sketch toy. Built using HTML, CSS, and JavaScript, this project showcases DOM manipulation skills and provides a platform for creativity and exploration.
+The **Etch-A-Sketch** project is a browser-based application that simulates the classic Etch-A-Sketch toy. Built using HTML, CSS, and JavaScript, this project showcases DOM manipulation skills and provides a platform for creativity and exploration. This project is part of **The Odin Project** Foundations Course.
 
 ## Features
 
@@ -11,9 +11,3 @@ The **Etch-A-Sketch** project is a browser-based application that simulates the 
 - Responsive design to ensure a smooth experience across different screen sizes.
 - Smooth transitions and hover effects for an interactive feel.
 - Extra credit options include random color generation and a progressive darkening effect.
-
-## Technologies Used
-
-- **HTML**: For structuring the web page.
-- **CSS**: For styling and layout, using Flexbox for grid arrangements.
-- **JavaScript**: For DOM manipulation, event handling, and interactive features.
